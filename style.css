@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #2b003b;
+    color: #f0e0ff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game-container {
+    text-align: center;
+  }
+  
+  /* Other styles remain unchanged */
+
+.tap-area {
+  background-color: #4a1248;
+  width: 90vw;  /* Adjust based on desired size */
+  height: 50vh; /* Adjust based on desired size */
+  margin: 10px;
+  border-radius: 10px;
+}
+
+  
+  .timer, .tap-count {
+    color: #ff80ed;
+    margin: 10px;
+  }
+  
+  .start-button {
+    background-color: #81007f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .tap-area:active {
+    background-color: #ff80ed;
+  }
+  
